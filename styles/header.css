@@ -1,11 +1,10 @@
 #primary{
   padding-block: 20px;
 
-  div{
+  div {
     display: flex;
     align-items: center;
     gap: 8px;
-  
   }
 
   /* nesting css */
@@ -22,4 +21,5 @@
   padding-block: 14px;
   border: solid 1px var(--stroke-color);
   border-inline: none;
+  justify-content: space-between;
 }
